@@ -1,7 +1,8 @@
-acme_hello:
-    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+hola:
+    resource: "@HolaBundle/Controller/"
+    type:     annotation
     prefix:   /
-    
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
